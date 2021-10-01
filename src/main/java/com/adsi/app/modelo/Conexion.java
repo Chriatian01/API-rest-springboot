@@ -67,9 +67,9 @@ public class Conexion {
     }
 
     public void conectar() throws SQLException, IOException {
-        
+         //Aqui puede poner la url, usuario y contrasena para correre la api
         setDriver("com.mysql.jdbc.Driver");
-        setUrl("");
+        setUrl(""); 
         setUser("");
         setPassword("");
           
